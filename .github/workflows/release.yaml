@@ -14,5 +14,6 @@ jobs:
         with:
           publish-features: "true"
           base-path-to-features: "./src"
+          devcontainer-cli-debug-mode: "true"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
